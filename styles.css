@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cc9808;
+    color: #333;
+}
+
+header {
+    background-color: #cd7625;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header p {
+    margin: 0.5em 0 0;
+}
+
+section {
+    padding: 2em;
+    margin: 2em 0;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1em;
+}
+
+#about {
+    background-color: #e5af7c;
+    font-style: normal;
+}
+
+#skills{
+    background-color: #e5af7c;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills li {
+    background-color: #e0e0e0;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+#projects{
+    background-color: #e5af7c;
+}
+
+#projects .project {
+    margin-bottom: 1em;
+}
+
+#resume{
+    background-color: #e5af7c;
+}
+
+#resume a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #d4693b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#resume a:hover {
+    background-color: #45a049;
+}
+
+#contact{
+    background-color: #ad812e;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    section {
+        padding: 1em;
+    }
+}
